@@ -1,0 +1,30 @@
+.dropdown-item {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center; 
+  padding-left:2rem;
+  padding-right:2rem;
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  background-color: var(--dropdown-bg);
+  color: var(--dropdown-text-color);
+  
+}
+.dropdown-item:hover {
+  background-color: var(--dropdown-bg-hover);
+}
+
+.item-icon {
+  padding-right: 0.5rem;
+}
+.tick-icon {
+  margin-right: 8px; 
+  width: 20px;
+  height: 20px;
+}
+.dropdown-item.disabled {
+  opacity: 0.5; 
+  pointer-events: none; 
+}

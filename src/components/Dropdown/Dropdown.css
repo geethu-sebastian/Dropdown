@@ -1,0 +1,15 @@
+.dropdown{
+  position: absolute;
+  top:40px;
+  left:600px;
+  width:300px;
+  max-width:300px;
+  background-color: var(--dropdown-btn-bg);
+  color: var(--dropdown-text-color);
+  border-radius: 50px;
+}
+@media (max-width: 600px) {
+  .dropdown {
+    max-width: 80%;
+  }
+}
