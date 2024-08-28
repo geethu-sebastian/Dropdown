@@ -1,6 +1,8 @@
-DROPDOWN Component
+## DROPDOWN (React.js and CSS)
 
-Features Implemented
+### Features Implemented
+
+<img src="https://github.com/user-attachments/assets/38b82f39-6858-4b61-98be-7d11fe252c06" width="700" height="400">
 
 1. The dropdown functionality is split into multiple components: Dropdown, DropdownButton, DropdownContent, DropdownItem, and SearchBar. It accepts props like searchEnabled, expandUpward, and showTick.
 2. The open/closed state of the dropdown is managed using useState Hook. Based on the state, the dropdown content is rendered.
